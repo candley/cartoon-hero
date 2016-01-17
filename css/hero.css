@@ -1,20 +1,79 @@
 html, body{
-    font-family: Arial, sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
 }
 
 header{
-    background-color: #3333ff; /*pick new color*/
-    padding: 40px;
+    background-color: #157CBE;
+    padding: 20px 40px;
     text-align: center;
 }
 
 h1{
-    font-size: 90px;
+    font-size: 70px;
+    font-family: 'Bad Script', cursive;
     color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+h2{
+    font-family: 'Bad Script', cursive;
+    font-size: 35px;
+    background-color: #badff7;
+    border-radius: 10px;
 }
 
 header img{
     border-radius: 150px;
     width: 300px;
-    border: 10px solid #CC0000;
+    border: 10px solid #000000;
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+img.big-image{
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+p.caption{
+    font-size: 16px;
+    color: #000000;
+    font-style: italic;
+    margin-top: 0;
+    opacity: .5;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: #8E0F02;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #204E09;
+}
+
+footer{
+    padding: 40px 20px;
+    background-color: #E6E6E6;
+}
+
+footer ul{
+    text-align: center;
+    opacity: .7;
+}
+
+footer ul li{
+    display: inline-block;
+    margin: 0 5px;
+
 }
